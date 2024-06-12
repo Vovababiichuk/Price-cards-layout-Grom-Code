@@ -1,13 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Price Cards Layout</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price Cards Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="price-cards">
+      <div class="price-card">
+        <h1 class="price-card__title">Basic</h1>
+        <span class="price-card__sub">Website</span>
+        <strong class="price-card__price price-card__price--green">99€</strong>
+        <p class="price-card__desc">
+          Simple website made in the world's most popular CMS system, Wordpress.
+        </p>
+        <ul class="price-card__list card-list">
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-green"></i>
+            <span class="card-list__item-text">Website in WordPress</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-green"></i>
+            <span class="card-list__item-text">3 sub pages</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-green"></i>
+            <span class="card-list__item-text">Theme customized</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-green"></i>
+            <span class="card-list__item-text">Help and guidance</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-green"></i>
+            <span class="card-list__item-text">System introduction</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-green"></i>
+            <span class="card-list__item-text">2 weeks free support</span>
+          </li>
+        </ul>
+        <button class="price-card__btn price-card__btn--green">Order Now</button>
+      </div>
+      <div class="price-card">
+        <div class="price-card__badge">Popular</div>
+        <h1 class="price-card__title">Business</h1>
+        <span class="price-card__sub">Website</span>
+        <strong class="price-card__price price-card__price--blue">299€</strong>
+        <p class="price-card__desc">
+          Advanced website made in the world's most popular CMS system, Wordpress.
+        </p>
+        <ul class="price-card__list card-list">
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-blue"></i>
+            <span class="card-list__item-text">Website in WordPress</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-blue"></i>
+            <span class="card-list__item-text">3-5 sub pages</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-blue"></i>
+            <span class="card-list__item-text">Theme customized</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-blue"></i>
+            <span class="card-list__item-text">Help and guidance</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-blue"></i>
+            <span class="card-list__item-text">System introduction</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-blue"></i>
+            <span class="card-list__item-text">1 month free support</span>
+          </li>
+        </ul>
+        <button class="price-card__btn price-card__btn--blue">Order Now</button>
+      </div>
+      <div class="price-card">
+        <h1 class="price-card__title">Webshop</h1>
+        <span class="price-card__sub">Website</span>
+        <strong class="price-card__price price-card__price--orange">599€</strong>
+        <p class="price-card__desc">
+          Your very own webshop made the world's most popular CMS system, Wordpress.
+        </p>
+        <ul class="price-card__list card-list">
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-orange"></i>
+            <span class="card-list__item-text">Webshop in WordPress</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-orange"></i>
+            <span class="card-list__item-text">3-5 sub pages</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-orange"></i>
+            <span class="card-list__item-text">Theme customized</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-orange"></i>
+            <span class="card-list__item-text">Help and guidance</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-orange"></i>
+            <span class="card-list__item-text">System introduction</span>
+          </li>
+          <li class="card-list__item">
+            <i class="card-list__item-icon icon-orange"></i>
+            <span class="card-list__item-text">1 month free support</span>
+          </li>
+        </ul>
+        <button class="price-card__btn price-card__btn--orange">Order Now</button>
+      </div>
+    </div>
+  </body>
 </html>
