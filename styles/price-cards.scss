@@ -120,13 +120,16 @@
     }
 
     .icon-green {
-      background: url('./img/green-icon.svg') no-repeat;
+      background-image: url('./images/green-icon.svg');
+      background-repeat: no-repeat;
     }
     .icon-blue {
-      background: url('./img/blue-icon.svg') no-repeat;
+      background-image: url('./images/blue-icon.svg');
+      background-repeat: no-repeat;
     }
     .icon-orange {
-      background: url('./img/orange-icon.svg') no-repeat;
+      background-image: url('./images/orange-icon.svg');
+      background-repeat: no-repeat;
     }
   }
 
