@@ -109,13 +109,13 @@
   background-color: #2a3438;
 }
 .card-list__item .icon-green {
-  background: url("../img/green-icon.svg") no-repeat;
+  background: url("./img/green-icon.svg") no-repeat;
 }
 .card-list__item .icon-blue {
-  background: url("../img/blue-icon.svg") no-repeat;
+  background: url("./img/blue-icon.svg") no-repeat;
 }
 .card-list__item .icon-orange {
-  background: url("../img/orange-icon.svg") no-repeat;
+  background: url("./img/orange-icon.svg") no-repeat;
 }
 .card-list__item-icon {
   width: 15px;
