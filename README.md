@@ -3,7 +3,7 @@
 
 # Price Cards Layout
 
-### [Site link](https://vovababiichuk.github.io/Foundation-layout-GromCode/)
+### [Site link](https://vovababiichuk.github.io/Price-cards-layout-Grom-Code/)
 
 ### The tech stack is:
 
