@@ -3,7 +3,7 @@
 
 # Price Cards Layout
 
-### <a href="https://vovababiichuk.github.io/Price-cards-layout-Grom-Code/" target="_blank">SITE LINK</a>
+### [Site link](https://vovababiichuk.github.io/Price-cards-layout-Grom-Code/)
 
 ### The tech stack is:
 
