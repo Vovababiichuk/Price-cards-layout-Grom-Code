@@ -4,6 +4,7 @@
 # Price Cards Layout
 
 ### [Site link](https://vovababiichuk.github.io/Price-cards-layout-Grom-Code/)
+<a href="https://vovababiichuk.github.io/Price-cards-layout-Grom-Code/" target="_blank">Site link TEST</a>
 
 ### The tech stack is:
 
