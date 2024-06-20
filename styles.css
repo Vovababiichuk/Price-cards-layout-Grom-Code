@@ -80,7 +80,12 @@
   border-radius: 20px;
   text-transform: uppercase;
   color: #ffffff;
+  cursor: pointer;
   margin: 0 auto;
+  transition: opacity 0.2s ease-in-out;
+}
+.price-card__btn:hover {
+  opacity: 0.8;
 }
 .price-card__btn--green {
   background-color: #5bb189;

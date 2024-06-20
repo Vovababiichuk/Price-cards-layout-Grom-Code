@@ -15,7 +15,6 @@
   overflow: hidden;
   padding: 32px 0 40px;
 
-
   &__badge {
     position: absolute;
     top: 32px;
@@ -88,7 +87,13 @@
     border-radius: 20px;
     text-transform: uppercase;
     color: $color-light;
+    cursor: pointer;
     margin: 0 auto;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   &__btn--green {
