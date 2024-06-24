@@ -47,16 +47,16 @@
     text-align: center;
     padding: 20px 0;
     margin-bottom: 40px;
-  }
 
-  &__price--green {
-    background-color: $color-green;
-  }
-  &__price--blue {
-    background-color: $color-blue;
-  }
-  &__price--orange {
-    background-color: $color-orange;
+    &_green {
+      background-color: $color-green;
+    }
+    &_blue {
+      background-color: $color-blue;
+    }
+    &_orange {
+      background-color: $color-orange;
+    }
   }
 
   &__desc {
@@ -94,26 +94,32 @@
     &:hover {
       opacity: 0.8;
     }
-  }
 
-  &__btn--green {
-    background-color: $color-green;
-  }
-  &__btn--blue {
-    background-color: $color-blue;
-  }
-  &__btn--orange {
-    background-color: $color-orange;
+    &_green {
+      background-color: $color-green;
+    }
+    &_blue {
+      background-color: $color-blue;
+    }
+    &_orange {
+      background-color: $color-orange;
+    }
   }
 }
 
-.card-list {
-  display: flex;
-  flex-direction: column;
-  font-weight: 300;
-  font-size: 15px;
+.price-card {
+  &__options-list {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 38px;
+  }
 
-  &__item {
+  &__option {
     display: flex;
     align-items: center;
     gap: 22px;
@@ -124,22 +130,23 @@
       background-color: $color-bg-item;
     }
 
-    .icon-green {
+    &-icon {
+      width: 15px;
+      height: 13px;
+    }
+
+    &-icon_green {
       background-image: url('./images/green-icon.svg');
       background-repeat: no-repeat;
     }
-    .icon-blue {
+
+    &-icon_blue {
       background-image: url('./images/blue-icon.svg');
       background-repeat: no-repeat;
     }
-    .icon-orange {
+    &-icon_orange {
       background-image: url('./images/orange-icon.svg');
       background-repeat: no-repeat;
     }
-  }
-
-  &__item-icon {
-    width: 15px;
-    height: 13px;
   }
 }
