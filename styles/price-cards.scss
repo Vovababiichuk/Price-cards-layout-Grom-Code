@@ -133,20 +133,20 @@
     &-icon {
       width: 15px;
       height: 13px;
-    }
 
-    &-icon_green {
-      background-image: url('./images/green-icon.svg');
-      background-repeat: no-repeat;
-    }
+      &_green {
+        background-image: url('./images/green-icon.svg');
+        background-repeat: no-repeat;
+      }
 
-    &-icon_blue {
-      background-image: url('./images/blue-icon.svg');
-      background-repeat: no-repeat;
-    }
-    &-icon_orange {
-      background-image: url('./images/orange-icon.svg');
-      background-repeat: no-repeat;
+      &_blue {
+        background-image: url('./images/blue-icon.svg');
+        background-repeat: no-repeat;
+      }
+      &_orange {
+        background-image: url('./images/orange-icon.svg');
+        background-repeat: no-repeat;
+      }
     }
   }
 }
