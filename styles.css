@@ -96,7 +96,6 @@
 .price-card__btn_orange {
   background-color: #ec632a;
 }
-
 .price-card__options-list {
   display: flex;
   flex-direction: column;
@@ -120,18 +119,16 @@
 .price-card__option-icon {
   width: 15px;
   height: 13px;
+  background-repeat: no-repeat;
 }
 .price-card__option-icon_green {
   background-image: url("./images/green-icon.svg");
-  background-repeat: no-repeat;
 }
 .price-card__option-icon_blue {
   background-image: url("./images/blue-icon.svg");
-  background-repeat: no-repeat;
 }
 .price-card__option-icon_orange {
   background-image: url("./images/orange-icon.svg");
-  background-repeat: no-repeat;
 }
 
 html {

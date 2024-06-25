@@ -51,9 +51,11 @@
     &_green {
       background-color: $color-green;
     }
+
     &_blue {
       background-color: $color-blue;
     }
+
     &_orange {
       background-color: $color-orange;
     }
@@ -98,16 +100,16 @@
     &_green {
       background-color: $color-green;
     }
+
     &_blue {
       background-color: $color-blue;
     }
+
     &_orange {
       background-color: $color-orange;
     }
   }
-}
 
-.price-card {
   &__options-list {
     display: flex;
     flex-direction: column;
@@ -133,19 +135,17 @@
     &-icon {
       width: 15px;
       height: 13px;
+      background-repeat: no-repeat;
 
       &_green {
         background-image: url('./images/green-icon.svg');
-        background-repeat: no-repeat;
       }
 
       &_blue {
         background-image: url('./images/blue-icon.svg');
-        background-repeat: no-repeat;
       }
       &_orange {
         background-image: url('./images/orange-icon.svg');
-        background-repeat: no-repeat;
       }
     }
   }
