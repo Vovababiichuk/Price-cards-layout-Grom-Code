@@ -28,25 +28,25 @@
   }
 
   &__title {
+    margin: 0 0 8px;
+    text-align: center;
     font-size: 35px;
     font-weight: 700;
-    text-align: center;
-    margin: 0 0 8px;
   }
 
   &__sub {
     display: block;
-    font-size: 20px;
-    text-align: center;
     margin-bottom: 32px;
+    text-align: center;
+    font-size: 20px;
   }
 
   &__price {
     display: block;
-    font-size: 55px;
-    text-align: center;
-    padding: 20px 0;
     margin-bottom: 40px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 55px;
 
     &_green {
       background-color: $color-green;
@@ -64,25 +64,26 @@
   &__desc {
     width: 326px;
     margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
     font-weight: 300;
     font-size: 15px;
-    text-align: center;
-    margin-bottom: 40px;
   }
 
   &__list {
     padding: 0;
     margin: 0;
-    list-style: none;
     margin-bottom: 38px;
+    list-style: none;
   }
 
   &__btn {
     display: block;
-    border: 0;
-    outline: 0;
     width: 154px;
     height: 40px;
+    margin: 0 auto;
+    border: 0;
+    outline: 0;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -90,7 +91,6 @@
     text-transform: uppercase;
     color: $color-light;
     cursor: pointer;
-    margin: 0 auto;
     transition: opacity 0.2s ease-in-out;
 
     &:hover {
@@ -113,12 +113,12 @@
   &__options-list {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    margin-bottom: 38px;
+    padding: 0;
     font-weight: 300;
     font-size: 15px;
     list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 38px;
   }
 
   &__option {
@@ -144,6 +144,7 @@
       &_blue {
         background-image: url('./images/blue-icon.svg');
       }
+
       &_orange {
         background-image: url('./images/orange-icon.svg');
       }
