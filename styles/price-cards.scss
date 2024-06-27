@@ -5,7 +5,6 @@
   gap: 18px;
   padding: 66px 0;
 }
-
 .price-card {
   position: relative;
   min-width: 380px;
@@ -14,18 +13,6 @@
   background: $color-bg-card;
   overflow: hidden;
   padding: 32px 0 40px;
-
-  &__badge {
-    position: absolute;
-    top: 32px;
-    right: -43px;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    transform: rotate(45deg);
-    background-color: $color-red;
-    padding: 4px 50px;
-  }
 
   &__title {
     margin: 0 0 8px;
@@ -70,11 +57,45 @@
     font-size: 15px;
   }
 
-  &__list {
-    padding: 0;
+  &__options-list {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     margin-bottom: 38px;
+    padding: 0;
+    font-weight: 300;
+    font-size: 15px;
     list-style: none;
+  }
+
+  &__option {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    height: 50px;
+    padding-left: 22px;
+
+    &:nth-of-type(odd) {
+      background-color: $color-bg-item;
+    }
+  }
+
+  &__option-icon {
+    width: 15px;
+    height: 13px;
+    background-repeat: no-repeat;
+
+    &_green {
+      background-image: url('./images/green-icon.svg');
+    }
+
+    &_blue {
+      background-image: url('./images/blue-icon.svg');
+    }
+
+    &_orange {
+      background-image: url('./images/orange-icon.svg');
+    }
   }
 
   &__btn {
@@ -110,44 +131,15 @@
     }
   }
 
-  &__options-list {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    margin-bottom: 38px;
-    padding: 0;
-    font-weight: 300;
-    font-size: 15px;
-    list-style: none;
-  }
-
-  &__option {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    height: 50px;
-    padding-left: 22px;
-
-    &:nth-of-type(odd) {
-      background-color: $color-bg-item;
-    }
-
-    &-icon {
-      width: 15px;
-      height: 13px;
-      background-repeat: no-repeat;
-
-      &_green {
-        background-image: url('./images/green-icon.svg');
-      }
-
-      &_blue {
-        background-image: url('./images/blue-icon.svg');
-      }
-
-      &_orange {
-        background-image: url('./images/orange-icon.svg');
-      }
-    }
+  &__badge {
+    position: absolute;
+    top: 32px;
+    right: -43px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: rotate(45deg);
+    background-color: $color-red;
+    padding: 4px 50px;
   }
 }
